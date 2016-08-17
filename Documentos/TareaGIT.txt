@@ -6,24 +6,34 @@ Para probar si lo instalo y a su vez ver la versión:
 git –version
 
 Crear un repositorio en github:
-Entre a la pagina de Github y cree mi usuario y un proyecto, que titule  Repositorio
+Entre a la pagina de Github y cree mi usuario y un proyecto, que titule Tarea 2 Herramientas Computacionales
 
 Para crear un repositorio local git: git init
 
+
+
 Agregar un readme al repositorio local: touch README.md
+
+
 
 Use ls para asegurarme de que se creara
 
+
+
 Enlazar el repositorio local al de github
-Luego puse git commit -m “Ejercicio2” para que se confirmaran los cambios
+Luego puse git commit -m “Comentario” para que se confirmaran los cambios
+git remote add origin "https://github.com/Jazz264/Repositorio.git
 git push -u oring master : Para poder subirlos
 me pidio el ling de mi github y mi contraseña
 
-Subir en una confirmación (commit) la tarea1
-Como no logre enlazar sólo el archivo, cree una carpeta llamada “Tareas” y esta la agregue con git add Tareas, después puse git commit para confirmar los cambios
 
-Subir en una confirmación (commit) un archivo explicando los comandos que se usarion. 
-Hice lo mismo que para la Tarea 1 y después la enlace al repositorio local al de github de la misma forma.
+
+Subir en una confirmación (commit) la tarea1
+Subir en una confirmación (commit) un archivo explicando los comandos que se usaron
+Hice una carpeta que contiene la tarea de ayer y hoy, esta carpeta la agregue con git add Documentos, después puse git commit para confirmar los cambios
+
+
+
 
 
 
